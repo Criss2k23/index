@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Principal - CERTUS</title>
+</head>
+<body>
+    <ul>
+        <li>Leche</li>
+        <li>Cafe</li>
+        <li>Jugo</li>
+    </ul>
+     <p>Este es un parrafó <br> con una etiqueta "br" que es un elemento vacio de HTML </p>
+      <!-- Este es un comenario en HTML-->
+      <h1 id="titulo">Este es un encabezado Tipo1</h1>
+      <h2>Este es un encabezado Tipo2</h2>
+      <h3>Este es un encabezado Tipo3</h3>
+      <h4>Este es un encabezado Tipo4</h4>
+      <h5>Este es un encabezado Tipo5</h5>
+      <h6>Este es un encabezado Tipo6</h6>
+
+      <h1 class="centrado">Bienvenido a CERTUS</h1>
+      <p class="noticia">Este es un parrafo 1</p>
+      <p class="noticia">Este es otro parrafo</p>
+      <p class="noticia">Este es el parrafo 3</p>
+
+      <p>
+          Este es la primera linea del parrafo. <br>
+          Despues de la etiqueta br, se realiza un salto <br>
+          hacia una nueva linea.
+    
+      </p>
+
+     <a href="www.cetus.edu.pe">Este es un enlace para CERTUS</a>
+     <br>
+     <br>
+     <img src="logo .jpg" alt="Logo de Certus" width="400em">
+     <img src="imagenes/logo.jpg" alt="Logo de certus" width="400em">
+     <img src="../logo.jpg" alt="Logo de certus" width="400em">
+    <br>
+    <br>
+     <button>Presiona aqui</button>
+
+    <ol start="8">
+     <li>Leche</li>
+     <li>Cafe</li>
+     <li>Jugo</li>
+    </ol start="a">
+     <li>Leche</li>
+     <li>Cafe</li>
+     <li>Jugo</li>
+
+     <table>
+        <tr>
+            <th>♣ Codigos ♣</th>
+            <th>♣ Productos ♣</th>
+            <th>♣ Precios ♣</th>
+        </tr>
+        <tr>
+            <td>001
+            <td>Televisor</td>
+            <td>1500 soles</td>    
+        </tr>
+        <td>002</td>
+        <td>Refrigeradora</td>
+        <td>3000 soles</td>
+        <tr>
+            <td>003</td>
+            <td>Laptop</td>
+            <td>4000 soles</td>
+        </tr>
+     </table>
+     <br>
+     <br>
+     <div style="background-color: rgb(0, 233, 241);">♀♀♀ Bienvenidos a CERTUS ♀♀♀</div>
+     <p>Carrera de TI en <span style="background-color: aqua;">♀♀♀ CERTUS ♀♀♀ </span></p>
+
+     <video width="500em" height="240em" controls autoplay muted>
+        <source src="HTML_CCS.mp4" type="video/mp4">
+    </video>
+
+    <iframe width="956" height="238" src="https://www.youtube.com/embed/gJeQRiIaDgM" frameborder="0"></iframe>
+    <br> 
+    <br>
+    
+    <form action="/pagina_proceso" target="_blank" method="post">
+        <label for="codigo">codigo de productos</label>
+        <br>
+        <input type="text" id="codigo">
+
+
+    
+    <input type="text" name="codigo" id="codigo">   
+    <input type="text" name="nombre" id="nombre" value="televisor">
+    <input type="text" name="precio" id="precio" placeholder="ingrese el valor del producto">
+    <input type="submit" value="grabar">
+    <input type="submit" value="cancelar">
+
+     <br>
+     <br>
+     <label for="dni">DNI</label>
+     <input type="radio" name="dni" id="tipo_documento">
+     <br>
+     <label for="pasaporte"> PASAPORTE</label>
+     <input type="radio" id:"pasaporte" name="tipo de documento">
+     <br>
+     <label for="otro">OTRO</label>
+     <input type="radio" id="otro" name="tipo_documento" checked>
+     <br>
+     <br>
+    </form>
+     
+    <style>
+        #titulo{
+            font-size: 2em;
+            color: rgb(80, 6, 150);
+        }
+        .centrado {
+            text-align: center;
+            font-size: 2em;
+            color: brown;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .noticia {
+            font-size: 2em;
+            color: rgb(19, 19, 209);
+        }
+        *{
+            font-size: 1em;
+            color: rgb(106, 95, 219);
+
+        }
+
+        /*
+        * {
+            font-zize: 2em
+            color: cyan
+        }*/
+        h2, p, span{
+            font-size: 2em;
+            color: black;
+        }
+        
+
+    </style>
+     
+     
+</body>
+</html>

@@ -1,0 +1,73 @@
+h1 {
+    color: blue;
+}
+
+#titulo {
+    color: bisque;
+}
+
+p.texto1 {
+    color: aqua;
+}
+
+p.texto2 {
+    color: rgb(62, 19, 201);
+}
+
+p.texto3 {
+    color: rgb(181, 17, 38);
+}
+
+div {
+    color: rgb(79, 79, 241);
+}
+h1 {
+    color: #e00; /*formato Hexadecimal - 3 digitos*/
+}
+
+h2 {
+    color: #00ff00; /*formato Hexadecimal - 6 digitos*/
+}
+
+h3{
+    color:rgb(255, 100, 12);
+}
+
+h1{
+    color: rgba(0,0, 255,0.5);
+}
+
+*{
+    height: 1em;
+    /*width:100px;*/
+    background-image: url(gi.j.gif);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    text-align: left;
+    font-size: 8em;
+    border-width: 8px;
+    border-style: solid;
+    border-color: rgb(199, 14, 14);
+    height: 500px;
+    /*width: 300px;*/
+    background-color: rgba(0,0,255,0.5);
+    background-image: url(vicio.timi.gif);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    background-size: contain;
+}
+
+¡{
+    height: 1em;
+    /*width:100px*/
+    background-image: url(gif.prueba.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
